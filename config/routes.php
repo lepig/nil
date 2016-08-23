@@ -11,4 +11,7 @@ Macaw::get('(:all)', function() {
   
 });
 
+Macaw::get('', 'HomeController@home');
+Macaw::get('test', 'TestController@index');
+
 Macaw::dispatch();

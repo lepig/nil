@@ -1,4 +1,13 @@
 {
-	"require": {
-	}
+    "require": {
+        "symfony/var-dumper": "^3.1",
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "app/views"
+        ]
+    }
 }
