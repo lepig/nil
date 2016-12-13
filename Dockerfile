@@ -1,3 +1,3 @@
-FORM php5.5
+FROM php5.5
 
 WORKDIR . /code
